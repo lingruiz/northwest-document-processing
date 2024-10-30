@@ -1,0 +1,6 @@
+edgartools
+pydantic
+azure-core
+azure-ai-documentintelligence
+azure-ai-formrecognizer
+python-dotenv
