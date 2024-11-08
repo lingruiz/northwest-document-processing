@@ -1,0 +1,136 @@
+
+ balance sheet 
+| label | 2023 | 2022 |
+| --- | --- | --- |
+| ASSETS |  |  |
+| Cash and cash equivalents | 272520000 | 283945000 |
+| Trade and other receivables, net |  |  |
+| Related Party | 5861000 |  |
+| Nonrelated Party | 74762000 |  |
+| Insurance recoverable | 9821000 | 34191000 |
+| Inventories | 19963000 | 20046000 |
+| Prepayments and other assets | 54294000 | 44177000 |
+| Property and equipment, net | 1415572000 | 1536567000 |
+| Derivative financial instruments | 2966000 | 3510000 |
+| Goodwill, net | 60642000 | 61654000 |
+| Other intangible assets | 4357000 | 6556000 |
+| Deferred tax assets | 12967000 | 7422000 |
+| Total assets | 1933725000 | 2069820000 |
+| LIABILITIES AND SHAREHOLDERS' EQUITY |  |  |
+| Trade and other payables |  |  |
+| Related Party | 5861000 |  |
+| Nonrelated Party | 74762000 |  |
+| Income tax payable | 11592000 | 990000 |
+| Debt | 1061376000 | 1065453000 |
+| Other liabilities | 33970000 | 30685000 |
+| Deferred tax liabilities | 64815000 | 69326000 |
+| Total liabilities | 1378928000 | 1404958000 |
+| Commitments and contingencies (see Note 7) |  |  |
+| Shareholders’ equity |  |  |
+| Ordinary shares (par value €0.10; 500,000,000 shares authorized, 169,423,980 shares issued and 136,081,891 shares outstanding as of December 31, 2023, and 168,275,504 shares issued and 158,228,508 shares outstanding as of December 31, 2022) | 18822000 | 18700000 |
+| Treasury shares (at cost, 33,342,089 shares as of December 31, 2023 and 10,046,996 shares as of December 31, 2022) | -248174000 | -62953000 |
+| Paid-in capital | 1202175000 | 1189090000 |
+| Accumulated other comprehensive income (loss) | 1112000 | -6985000 |
+| Accumulated deficit | -419138000 | -472990000 |
+| Total shareholders’ equity | 554797000 | 664862000 |
+| Total liabilities and shareholders' equity | 1933725000 | 2069820000 |
+
+ income statement 
+| label | 2023 | 2022 | 2021 |
+| --- | --- | --- | --- |
+| Revenue |  |  |  |
+| Total revenue | 977504000 | 856263000 | 534639000 |
+| Package | 824122000 |  |  |
+| Non-package | 121422000 |  |  |
+| The Playa Collection | 3642000 |  |  |
+| Management fees | 7030000 |  |  |
+| Cost reimbursements | 12475000 |  |  |
+| Other | 8813000 |  |  |
+| Direct and selling, general and administrative expenses |  |  |  |
+| Direct | 516449000 | 459030000 | 326979000 |
+| Selling, general and administrative | 192822000 | 186608000 | 119895000 |
+| Depreciation and amortization | -81827000 | -78372000 | -81508000 |
+| Reimbursed costs | 12475000 | 9706000 | 5806000 |
+| Impairment loss | 0 | 0 | 24011000 |
+| Loss on sale of assets | -5069000 | -6000 | -676000 |
+| Gain on insurance proceeds | -5580000 | -0 | -0 |
+| Business interruption insurance recoveries | -555000 | -7226000 | -0 |
+| Direct and selling, general and administrative expenses | -802507000 | -726496000 | -558875000 |
+| Operating income (loss) | 174997000 | 129767000 | -24236000 |
+| Interest expense | -108184000 | -64164000 | -71378000 |
+| Loss on extinguishment of debt | -894000 | -18307000 | -0 |
+| Other (expense) income | -353000 | 3857000 | -1471000 |
+| Net income (loss) before tax | 65566000 | 51153000 | -97085000 |
+| Income tax (provision) benefit | -11700000 | -5600000 | -7400000 |
+| Net income (loss) | 53852000 | 56706000 | -89682000 |
+| Earnings (loss) per share |  |  |  |
+| Basic (in dollars per share) | 0.36 | 0.34 | -0.55 |
+| Diluted (in dollars per share) | 0.36 | 0.34 | -0.55 |
+| Weighted average number of shares outstanding during the period - Basic (in shares) | 148063358 | 164782886 | 163370410 |
+| Weighted average number of shares outstanding during the period - Diluted (in shares) | 150309674 | 166077802 | 163370410 |
+
+ cash flow statment 
+| label | 2023 | 2022 | 2021 |
+| --- | --- | --- | --- |
+| CASH FLOWS FROM OPERATING ACTIVITIES |  |  |  |
+| Net income (loss) | 53852000 | 56706000 | -89682000 |
+| Adjustments to reconcile net income (loss) to net cash provided by operating activities: |  |  |  |
+| Depreciation and amortization | -81827000 | -78372000 | -81508000 |
+| Amortization of debt discount and issuance costs | 6471000 | 3952000 | 4116000 |
+| Loss on extinguishment of debt | -894000 | -18307000 | -0 |
+| Share-based compensation | 13207000 | 11892000 | 13163000 |
+| Loss (gain) on derivative financial instruments | -6018000 | -14316000 | -12060000 |
+| Impairment loss | 0 | 0 | 24011000 |
+| Deferred income taxes | -3031000 | -6994000 | -10017000 |
+| Loss on sale of assets | -5069000 | -6000 | -676000 |
+| Amortization of key money | -773000 | -1228000 | -622000 |
+| Provision for (recovery of) doubtful accounts | 375000 | -870000 | -672000 |
+| Other | -671000 | 456000 | 701000 |
+| Changes in assets and liabilities: |  |  |  |
+| Trade and other receivables, net |  |  |  |
+| Related Party | -2945000 |  |  |
+| Nonrelated Party | -12310000 |  |  |
+| Insurance recoverable | -6381000 | -40579000 | -0 |
+| Inventories | -1373000 | -2018000 | -4353000 |
+| Prepayments and other assets | -8469000 | -999000 | -8798000 |
+| Trade and other payables | -29703000 | 68759000 | 43130000 |
+| Payables to related parties | 3891000 | 1802000 | -5377000 |
+| Income tax payable | 11403000 | 162000 | 480000 |
+| Other liabilities | 371000 | 2230000 | -555000 |
+| Net cash provided by operating activities | 136374000 | 158230000 | 29644000 |
+| INVESTING ACTIVITIES |  |  |  |
+| Capital expenditures | -46186000 | -28735000 | -17334000 |
+| Purchase of intangibles | -235000 | -484000 | -308000 |
+| Receipt of key money | 0 | 0 | 1863000 |
+| Payment of key money | -0 | -4500000 | -0 |
+| Proceeds from the sale of assets, net | 78964000 | 182000 | 89179000 |
+| Property damage insurance proceeds | 17989000 | 6388000 | 0 |
+| Net cash provided by (used in) investing activities | 50532000 | -27149000 | 73400000 |
+| FINANCING ACTIVITIES |  |  |  |
+| Proceeds from debt issuance, net of discount | 0 | 1061500000 | 0 |
+| Issuance costs of debt | -6000 | -6812000 | -0 |
+| Proceeds from ordinary shares, net of issuance costs | 0 | 0 | 137716000 |
+| Repayment of debt | -11000000 | -941868000 | -34479000 |
+| Repayment of debt from related parties | -0 | -208545000 | -681000 |
+| Repayments of borrowings on revolving credit facility | -0 | -0 | -84667000 |
+| Repurchase of ordinary shares | -186889000 | -44588000 | -0 |
+| Repurchase of ordinary shares for tax withholdings | -0 | -0 | -55000 |
+| Principal payments on finance lease obligations | -436000 | -400000 | -161000 |
+| Net cash (used in) provided by financing activities | -198331000 | -140713000 | 17673000 |
+| (DECREASE) INCREASE IN CASH AND CASH EQUIVALENTS | -11425000 | -9632000 | 120717000 |
+| TOTAL CASH, CASH EQUIVALENTS AND RESTRICTED CASH | 272520000 | 283945000 | 293577000 |
+| RECONCILIATION OF CASH, CASH EQUIVALENTS AND RESTRICTED CASH |  |  |  |
+| Cash and cash equivalents | 272520000 | 283945000 | 270088000 |
+| Restricted cash | 0 | 0 | 23489000 |
+| TOTAL CASH, CASH EQUIVALENTS AND RESTRICTED CASH | 272520000 | 283945000 | 293577000 |
+| SUPPLEMENTAL DISCLOSURES OF CASH FLOW INFORMATION |  |  |  |
+| Cash paid for interest, net of interest capitalized | 97097000 | 75492000 | 78945000 |
+| Cash paid for income taxes, net | 4393000 | 1098000 | 2127000 |
+| SUPPLEMENTAL DISCLOSURES OF NON-CASH ACTIVITIES |  |  |  |
+| Capital expenditures incurred but not yet paid | 2430000 | 2328000 | 929000 |
+| Costs of sale not yet paid | 890000 | 0 | 0 |
+| Intangible assets capitalized but not yet paid | 0 | 0 | 155000 |
+| Repurchase of ordinary shares not yet settled | 0 | 1668000 | 0 |
+| Par value of vested restricted share awards | 122000 | 182000 | 135000 |
+| Right-of-use assets obtained in exchange for new operating lease liabilities | 4151000 | 0 | 262000 |
+| Right-of-use assets obtained in exchange for new finance lease liabilities | 0 | 0 | 3925000 |
