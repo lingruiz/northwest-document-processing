@@ -1,0 +1,5 @@
+openai:
+  api_key: "your_openai_api_key"
+edgar:
+  email: "lingruiz@andrew.cmu.edu"
+  name: "Jessie Zeng"
