@@ -20,10 +20,11 @@ def dataframe_to_markdown(df: pd.DataFrame) -> str:
     
     return header + separator + rows
 
-def write_to_markdown(data, company_cik):
+def write_to_markdown(data, company_cik, output_path):
+    # path = os.path.join(output_path, "markdown_data")
     os.makedirs("markdown_data", exist_ok=True)
-    
-    with open(f'markdown_data/{company_cik}_sheet.txt', 'w') as file:
+    path = "markdown_data"
+    with open(os.path.join(path,f'{company_cik}_sheet.txt'), 'w') as file:
         file.write("\n balance sheet \n")
         file.write(dataframe_to_markdown(data[0]))
         file.write("\n income statement \n")
@@ -33,9 +34,12 @@ def write_to_markdown(data, company_cik):
         file.close()
 
 def write_to_csv(data, company_cik):
-    data[0].to_csv(f'{company_cik}_balance_sheet.csv', index=False)
-    data[1].to_csv(f'{company_cik}_income_statement.csv', index=False)
-    data[2].to_csv(f'{company_cik}_cash_flow.csv', index=False)
+    # path = os.path.join(output_path, "csv_data")
+    os.makedirs("csv_data", exist_ok=True)
+    path = "csv_data"
+    data[0].to_csv(os.path.join(path, f'{company_cik}_balance_sheet.csv'), index=False)
+    data[1].to_csv(os.path.join(path, f'{company_cik}_income_statement.csv'), index=False)
+    data[2].to_csv(os.path.join(path, f'{company_cik}_cash_flow.csv'), index=False)
 
 
 def read_in_text(filename):
@@ -45,11 +49,9 @@ def read_in_text(filename):
     return text
 
 
-def write_response_to_file(response, filename, filetype):
-    os.makedirs(filetype, exist_ok=True)
-
-    with open(f'{filetype}/{filename}_{filetype}.txt', 'w') as f:
+def write_response_to_file(response, system_prompt, filename):
+    os.mkdir(system_prompt, exist_ok=True)
+    with open(f'{system_prompt}/{filename}.txt', 'w') as f:
         f.write(response.content)
         f.close()
-
     print(f"Response saved to {filename}")

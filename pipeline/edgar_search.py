@@ -10,7 +10,8 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 # python edgar-extract-data.py cik --format markdown
 
-
+def set_identity(email):
+    set_identity(email)
 
 def fetch_company_sheets(filing):
     # another way to get balance sheet
@@ -28,6 +29,24 @@ def edgarTool_get_filing(ticker, form_type="10-K", num_filings=1):
     filing = Company(ticker).get_filings(form=form_type).latest(num_filings)
     return filing
 
+
+def run_edgar_search(cik, output_path, credential_email):
+    print(f"Fetching data for CIK: {cik}")
+
+    # Set the identity for the edgartool
+    set_identity(credential_email)
+
+    filing = edgarTool_get_filing(cik)
+    sheets = fetch_company_sheets(filing)
+    
+    if sheets:
+        # Write data to the selected format
+        write_to_csv(sheets, cik, output_path)
+        write_to_markdown(sheets, cik, output_path)
+    else:
+        print(f"No data found for CIK: {cik}")
+
+    print(f"Data saved for CIK: {cik}")
 
 
 def main():
@@ -63,6 +82,10 @@ def main():
         print(f"No data found for CIK: {cik}")
 
     print(f"Data saved in {format} format for CIK: {cik}")
+
+
+
+
 
 if __name__ == '__main__':
     main()
