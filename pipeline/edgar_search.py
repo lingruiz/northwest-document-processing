@@ -5,12 +5,12 @@ import requests
 from edgar.financials import Financials
 import pandas as pd
 import warnings
-from utils import write_to_markdown, write_to_csv
+from pipeline.utils import write_to_markdown, write_to_csv
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 # python edgar-extract-data.py cik --format markdown
 
-def set_identity(email):
+def set_user_identity(email):
     set_identity(email)
 
 def fetch_company_sheets(filing):
@@ -34,7 +34,7 @@ def run_edgar_search(cik, output_path, credential_email):
     print(f"Fetching data for CIK: {cik}")
 
     # Set the identity for the edgartool
-    set_identity(credential_email)
+    set_user_identity(credential_email)
 
     filing = edgarTool_get_filing(cik)
     sheets = fetch_company_sheets(filing)

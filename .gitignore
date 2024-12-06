@@ -1,2 +1,6 @@
 .env
-*.txt
+*.yml
+pipeline/config.yml
+pipeline/*.yml
+
+experiment/data
