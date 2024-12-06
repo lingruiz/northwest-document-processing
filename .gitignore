@@ -1,0 +1,4 @@
+.env
+*.yml
+pipeline/config.yml
+experiment/data
