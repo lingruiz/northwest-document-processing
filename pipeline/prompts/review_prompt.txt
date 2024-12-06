@@ -5,11 +5,19 @@ Identify and document any errors or inconsistencies.
 Review Credit Score:
 Validate the assigned score and risk class.
 Ensure the justification is logical, data-driven, and well-supported by financial evidence.
-Cross-Check Company Rank:
-Confirm the company’s rank reflects accurate financial health relative to industry benchmarks.
-Suggest adjustments if inconsistencies are found.
 Consensus Decision:
 Summarize findings and state if the analysis is approved or needs revision.
 Provide recommendations for corrections if needed.
 Output:
 Deliver a summary report, noting verified scores, any errors, and final recommendations.
+If error detected, point out the error location and correct it
+Output Format:
+Deliver a structured report that includes the following sections. The output must match the format exactly:
+Review and Consensus Summary Report
+Verified Credit Score: [Numerical Score]
+Consensus Decision: [Approved / Needs Revision]
+Recommendations (if applicable):
+Error Location: [Specify the section where the error was found].
+Correction: [Provide the corrected value or approach].
+
+

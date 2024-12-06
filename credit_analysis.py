@@ -81,7 +81,7 @@ def main():
 
     print("Performing Review Step")
     review_response, _ = chat_completion(review_prompt, openai_api_key, assessment_response, model)
-    utils.write_response_to_file(review_response, 'assessment', "assessment_crosscheck", output_dir)
+    utils.write_response_to_file(review_response, 'assessment', "crosscheck_assessment", output_dir)
     print(assessment_response)
 
     end_time = time.time()
