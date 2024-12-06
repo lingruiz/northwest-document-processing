@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Analysis</title>
+</head>
+<body>
+    <h1>Credit Analysis</h1>
+    <form action="{{ url_for('analyze') }}" method="post">
+        <label for="cik">Company CIK:</label>
+        <input type="text" id="cik" name="cik" required>
+        <br>
+        <label for="output">Output Directory:</label>
+        <input type="text" id="output" name="output" required>
+        <br>
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html>
